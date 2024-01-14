@@ -27,3 +27,8 @@ for (int e = 0; e < N_F; e++)
 {
     Console.WriteLine($"Элемент {e} нового массива равен: {arrAns[e]}");
 }
+
+if (N % 2 != 0)
+{
+    Console.WriteLine($"(Элемент введённого массива {arr[N_F]} с индексом {N_F} не имеет пары)");
+}
