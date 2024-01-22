@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "C#: 1_3",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\Lesson_1\\1_3\\1_3.csproj",
+            "launchConfigurationId": "TargetFramework=;1_3"
+        }
+    ]
+}
