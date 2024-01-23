@@ -4,7 +4,7 @@
             "name": "C#: 1_3",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}\\Lesson_1\\1_3\\1_3.csproj",
+            "projectPath": "${workspaceFolder}\\Homework_15_01_2024\\task1\\task1.csproj",
             "launchConfigurationId": "TargetFramework=;1_3"
         }
     ]
