@@ -5,7 +5,7 @@ using System;
 
 
 
-class prog
+class Prog
 {
     static Random rand = new Random();
     public static void Main()
