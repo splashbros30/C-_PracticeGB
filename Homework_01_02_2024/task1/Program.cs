@@ -15,15 +15,18 @@ class Prog
         int M = int.Parse(Console.ReadLine()!);
         Console.WriteLine("Enter a number to: ");
         int N = int.Parse(Console.ReadLine()!);
+        Console.WriteLine();
+        Console.WriteLine("Numbers from entered range:");
+        range_from_numbers(M, N);
     }
 
     public static void range_from_numbers(int m, int n)
     {
-        int i = m;
-        if (i == n)
+        if (m == n + 1)
         {
             return;
         }
-        Console.Write($"");
+        Console.Write($"{m}" + (m == n ? "" : ", "));
+        range_from_numbers(m + 1, n);
     }
 }
